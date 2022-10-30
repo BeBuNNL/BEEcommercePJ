@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of Ecommerce app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js"
+  },
+  "keywords": [],
+  "author": "BeBuNNL",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.1",
+    "@babel/node": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apollo-server-core": "^3.10.2",
+    "apollo-server-express": "^3.10.2",
+    "express": "^4.18.1",
+    "express-rate-limit": "^6.6.0",
+    "express-session": "^1.17.3",
+    "graphql": "^16.6.0",
+    "graphql-import-files": "^1.0.18",
+    "mongoose": "^6.6.1"
+  }
+}
